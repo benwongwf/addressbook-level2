@@ -64,7 +64,7 @@ public class Name implements Printable {
     /*
      * Returns a concatenated version of the printable strings of each object.
      */
-    public String getPrintableString(Printable... printables) {
+    public String getPrintableString() {
     	return NAME_STARTER + toString();
     }
 
